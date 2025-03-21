@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ja3ANDsYSVc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\50246\\Desktop\\SQS\\SQS.Publisher\\SQS.Publisher.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\50246\\.nuget\\packages\\awssdk.core\\3.7.402.22\\awssdk.core.3.7.402.22.nupkg.sha512",
+    "C:\\Users\\50246\\.nuget\\packages\\awssdk.sqs\\3.7.400.116\\awssdk.sqs.3.7.400.116.nupkg.sha512"
+  ],
+  "logs": []
+}

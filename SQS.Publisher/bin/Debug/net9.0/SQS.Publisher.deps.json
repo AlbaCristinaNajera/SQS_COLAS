@@ -1,0 +1,59 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "SQS.Publisher/1.0.0": {
+        "dependencies": {
+          "AWSSDK.SQS": "3.7.400.116"
+        },
+        "runtime": {
+          "SQS.Publisher.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.402.22": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.402.22"
+          }
+        }
+      },
+      "AWSSDK.SQS/3.7.400.116": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.402.22"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.SQS.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.400.116"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SQS.Publisher/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.7.402.22": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Mb7iZWyKdVgGYWhNo09yhW6ieliwGVIAsFSL0OhoyJ/qZXJd4OvBAhOtqpXT06bs4ABTc4QzGYmKeFHvdXqxJQ==",
+      "path": "awssdk.core/3.7.402.22",
+      "hashPath": "awssdk.core.3.7.402.22.nupkg.sha512"
+    },
+    "AWSSDK.SQS/3.7.400.116": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xrg8xMr2gcU5rAmAlfhSLmisxbVuYew97sggRNKU5fEfXwjYsdMv3czuPb5hKNUuqdkOpk5035arYnCt3H+c5w==",
+      "path": "awssdk.sqs/3.7.400.116",
+      "hashPath": "awssdk.sqs.3.7.400.116.nupkg.sha512"
+    }
+  }
+}

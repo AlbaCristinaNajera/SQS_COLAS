@@ -1,0 +1,65 @@
+/* Establecer un fondo celeste en toda la página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: blueviolet; 
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px;
+    text-align: left; 
+}
+
+/* Título */
+h1 {
+    color: white;
+    font-size: 2.5rem; 
+    margin-bottom: 40px; 
+    font-weight: bold;
+    text-transform: uppercase; 
+    text-align: center; 
+}
+
+
+.message-list {
+    list-style: none;
+    padding: 0;
+    max-width: 800px;
+    margin: 0 auto; 
+    text-align: left; 
+}
+
+/* Estilo de cada elemento de la lista */
+.message-item {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 10px; 
+    margin: 15px 0; 
+    font-size: 1.1rem; 
+    color: #34495e; 
+    font-family: 'Courier New', Courier, monospace; 
+    font-weight: bold; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    transition: all 0.3s ease; 
+}
+
+/* Estilo de los mensajes al hacer hover */
+.message-item:hover {
+    background-color: #f9f9f9; /* Cambiar color de fondo */
+    transform: translateY(-5px); /* Efecto de desplazamiento al pasar el ratón */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Aumentar la sombra */
+}
+
+/* Estilo para cuando no hay mensajes */
+.no-messages {
+    font-style: italic;
+    color: #7f8c8d; /* Color gris claro */
+    font-size: 1.2rem; /* Aumentar tamaño de la fuente */
+    margin-top: 30px;
+    text-align: center; /* Centrar el mensaje de "No hay mensajes" */
+}

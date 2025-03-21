@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "SQS Messages";
+}
+
+<!-- Enlace al archivo CSS -->
+<link rel="stylesheet" href="~/css/site.css" />
+
+<div class="container">
+    <h1>MENSAJES DE SQS</h1>
+
+    @if (ViewBag.Messages != null && ViewBag.Messages.Count > 0)
+    {
+        <ul class="message-list">
+            @foreach (var message in ViewBag.Messages)
+            {
+                <li class="message-item">@message.Body</li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p class="no-messages">No hay mensajes en la cola.</p>
+    }
+</div>

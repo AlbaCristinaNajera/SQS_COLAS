@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/SQS.Consumer/css/site.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZGop9N3Nz0A5x2TeLShGxuMJtUITm49xVbS3smpBOs0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1628"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ZGop9N3Nz0A5x2TeLShGxuMJtUITm49xVbS3smpBOs0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Mar 2025 00:54:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/SQS.Consumer/css/site.ovzr815i2k.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ovzr815i2k"},{"Name":"integrity","Value":"sha256-ZGop9N3Nz0A5x2TeLShGxuMJtUITm49xVbS3smpBOs0="},{"Name":"label","Value":"_content/SQS.Consumer/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1628"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022ZGop9N3Nz0A5x2TeLShGxuMJtUITm49xVbS3smpBOs0=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Mar 2025 00:54:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
